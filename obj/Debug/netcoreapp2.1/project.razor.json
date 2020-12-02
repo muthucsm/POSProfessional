@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\POSProfessional.csproj",
+  "FilePath": "c:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\POSProfessional.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -1818,28 +1818,28 @@
   "RootNamespace": "POSProfessional",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\Views\\Home\\_modals.cshtml",
+      "FilePath": "c:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\Views\\Home\\_modals.cshtml",
       "TargetPath": "Views\\Home\\_modals.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

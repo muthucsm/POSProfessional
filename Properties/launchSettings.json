@@ -21,7 +21,8 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:1059/"
+      
+      "applicationUrl": "https://muthucsm.github.io/POSProfessional/"
     }
   }
 }

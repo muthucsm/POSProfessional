@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\POSProfessional.csproj": {}
+    "C:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\POSProfessional.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\POSProfessional.csproj": {
+    "C:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\POSProfessional.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\POSProfessional.csproj",
+        "projectUniqueName": "C:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\POSProfessional.csproj",
         "projectName": "POSProfessional",
-        "projectPath": "C:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\POSProfessional.csproj",
+        "projectPath": "C:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\POSProfessional.csproj",
         "packagesPath": "C:\\Users\\muthukumar_m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muthukumar_m\\Documents\\Visual Studio 2017\\POSProfessional\\obj\\",
+        "outputPath": "C:\\Users\\muthukumar_m\\POSProfessional\\POSProfessional\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

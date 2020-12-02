@@ -3,10 +3,21 @@
 }
 
 <div id="app">
+    <comment-form></comment-form>
     <h2>BugVue 1.0</h2>
     
     <hr />
-
+<div>
+  <div class="form-group" :class="{ 'form-group--error': $v.emailaddr.$error }">
+    <label class="form__label">Email Address</label>
+    <input class="form-control" v-model.trim="$v.emailaddr.$model"/>
+  </div>
+  <div class="error" v-if="!$v.emailaddr.required">Field is required</div>
+  <div class="error" v-if="!$v.emailaddr.minLength">Email must have at least {{$v.emailaddr.$params.minLength.min}} letters.</div>
+  <tree-view :data="$v.emailaddr" :options="{rootObjectKey: '$v.emailaddr', maxDepth: 2}"></tree-view>
+ 
+</div>
+ </hr>
     <a href="#" class="btn btn-success" v-on:click="showModal"> New ...</a>
     <table class="table">
         <thead>
@@ -30,12 +41,17 @@
     <partial name="_modals" />
     
 </div>
+
 @section Scripts{
 
     <script src="~/lib/vue/vue.min.js"></script>
     <script src="~/lib/vuelidate/vuelidate.min.js"></script>
+    <script src="~/lib/vuelidate/validators.min.js"></script>
 
     <script>
+       Vue.use(window.vuelidate.default)       
+       const { required, minValue, minLength } = window.validators
+
         var app = new Vue({
             el: "#app",
             data: {
@@ -44,9 +60,17 @@
                 description: "",
                 editItemIndex: null,
                 editItemId: null,
-                errors: []
+                errors: [],
+                emailaddr : ''
 
             },
+            validations: {
+                emailaddr: {
+                required,
+                minLength: minLength(4)
+                }
+            },
+
             checkForm: function (e) {
       if (this.name && this.description) {
         return true;
@@ -174,6 +198,7 @@
                     $('#newBugModal').modal('show');
                 }
             }
-        });
-    </script>
+        });      
+
+    </script>    
 }
